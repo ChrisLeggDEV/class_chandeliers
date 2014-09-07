@@ -1,5 +1,5 @@
-.landscape {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
+body { margin: 0; 
+  background-color: #000;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/starfield_stock_1.jpg); 
+  background-size:cover;
+}
