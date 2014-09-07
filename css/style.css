@@ -1,0 +1,9 @@
+body {
+  opacity:0.6;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+  background-size: 50px 50px;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, #aaa), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, #aaa), color-stop(0.75, #aaa), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(90deg, #aaa 25%, transparent 25%, transparent 50%, #aaa 50%, #aaa 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(90deg, #aaa 25%, transparent 25%, transparent 50%, #aaa 50%, #aaa 75%, transparent 75%, transparent);
+  background-image: linear-gradient(90deg, #aaaaaa 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, #aaaaaa 50%, #aaaaaa 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+}
